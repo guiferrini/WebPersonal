@@ -44,8 +44,12 @@ body {
 
 h1 {
     font: 30px arial;
-    margin-left: 0px;
-    
+    margin-left: 0px;   
+}
+
+h2 {
+    font: 15 arial;
+    text-align: center;
 }
 
 .fotogui {
@@ -62,6 +66,8 @@ h1 {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    background-color: rgba(196, 230, 196, 0.5);
+    border-radius: 10px;
 }
 
 #menu ul {
@@ -73,9 +79,17 @@ h1 {
 
 #menu li {
     border: 2px solid black;
+    border-radius: 10px;
 }
 
 a {
     text-decoration: none;
     color: black;
+}
+
+.pe {
+    text-align: center;
+    font: 15px arial black;
+    background-color: rgba(196, 230, 196, 0.5);
+    border-radius: 10px;
 }
