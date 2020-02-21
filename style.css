@@ -1,6 +1,7 @@
 * {
     margin: 2px;
     padding: 2px;
+    font: arial;
 }
 
 body {
@@ -42,14 +43,20 @@ body {
     background-color: black;
 }
 
+/*Meu Nome, */
 h1 {
     font: 30px arial;
     margin-left: 0px;   
 }
-
+/*Hello, Contact, */
 h2 {
     font: 15 arial;
     text-align: center;
+    margin-top: 5px;
+}
+/*Contato*/
+h3 {
+    
 }
 
 .fotogui {
@@ -82,14 +89,28 @@ h2 {
     border-radius: 10px;
 }
 
+/*Icones menu*/
 a {
     text-decoration: none;
     color: black;
 }
-
+/*Roda pé*/
 .pe {
     text-align: center;
     font: 15px arial black;
     background-color: rgba(196, 230, 196, 0.5);
     border-radius: 10px;
 }
+
+/*Contato*/
+.cont {
+    flex-direction: row;
+    margin-bottom: 0px;
+    text-align: center;
+    font: 15px arial;
+}
+
+.minhasinfos {
+    text-align: center;
+}
+
