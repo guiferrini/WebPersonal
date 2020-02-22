@@ -1,11 +1,11 @@
 * {
     margin: 2px;
     padding: 2px;
-    font: arial;
+    font-family: 'Roboto Mono';
 }
 
 body {
-    margin-top: 50px;
+    margin-top: 30px;
     font-family: 'Roboto Mono';
 }
 
@@ -55,11 +55,10 @@ h2 {
     text-align: center;
     margin-top: 5px;
 }
-/*Contato*/
-h3 {
-    
-}
 
+h3 {
+    font-size: 14px;
+}
 .fotogui {
     display: block;
     margin-left: auto;
@@ -168,6 +167,10 @@ li:hover{
 }
 
 /*Logos Ln, GIT*/
-.logos {
-    size: 20px;
+#logos {
+    font-size: 25px;
 }
+ .mail {
+     font-size: 15px;
+     text-shadow: 0px 0px 0px;
+ }
