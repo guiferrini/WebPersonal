@@ -5,5 +5,7 @@ Compuesto por 3 páginas: página de inicio, página con estudios / trabajos rea
 Tecnologías utilizadas: HTML5, CSS3 y JavaScript.
 
 Desarrollado por: Guilherme Ferrini - 2020.
+
 contacto: guilhermemferrini@gmail.com.
+
 gracias :)
