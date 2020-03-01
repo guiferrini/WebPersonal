@@ -63,11 +63,28 @@ h3 {
 
 }
 /*Livre: titulo e descrição*/
-h4 {
-
+.livre {
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
-h5{
 
+.cv {
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: underline;
+    padding: 5px;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+h5{
+    font-size: 13px;
+}
+
+fieldset {
+    margin: 10px;
 }
 
 /*pagina/conteudo principal*/
@@ -83,7 +100,7 @@ img {
     box-shadow: 3px 2px 2px black;
 }
 
-main {
+main.principal {
     display: flex;
     flex-direction: column;
     align-items: center;
