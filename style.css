@@ -49,81 +49,30 @@ body {
     border-radius: 10px;
 }
 
-/*Meu Nome, */
+/*Meu nome*/
 h1 {
     font-size: 30px;
-    margin-left: 0px;   
+    margin-left: 0px; 
 }
 
-/*Hello, Contact, */
+/*Contato: titulo e descrição*/
 h2 {
-    font-size: 15;
-    text-align: center;
-    margin-top: 5px;
-}
 
-/*Logos*/
+}
 h3 {
-    font-size: 14px;
-}
 
-/*CV Titulos*/
+}
+/*Livre: titulo e descrição*/
 h4 {
-    font-size: 16px;
-    text-decoration: underline;
-    margin-top: 20px;
+
+}
+h5{
+
 }
 
-/*CV corpo*/
+/*pagina/conteudo principal*/
 
-h5 {
-    font-size: 12px;
-}
-
-/*Home aparece "let's code" */
-/*
-.movimento {
-    text-align: center;
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-}
-
-.movimento p {
-    display: block;
-}
-
-.m1 {
-    margin-bottom: -20px;
-    background-color: white;
-    position: relative;
-    animation: text 3s 1;
-}
-
-@keyframes text {
-    0% {
-        color: white;
-        margin-bottom: -100px;
-    }
-    35% {
-        letter-spacing: 6px;
-        margin-bottom: -100px;
-    }
-
-    85% {
-        letter-spacing: 2px;
-        margin-bottom: -100px;
-    }
-} 
-
-.peinicio {
-    margin-top: 180px;
-}
-*/
-/*Foto redonda*/
-.fotogui {
+img {
     display: block;
     margin-left: auto;
     margin-right: auto; 
@@ -134,28 +83,36 @@ h5 {
     box-shadow: 3px 2px 2px black;
 }
 
-/*menu*/
-#menu {
+main {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+/*Menu_Header*/
+.menu {
+    display: flex;
+    /* flex-direction: row; */
     justify-content: space-evenly;
     flex-wrap: wrap;
     background-color: rgba(196, 230, 196, 0.5);
     border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
-#menu ul {
-    list-style:none;
+ul {
+    list-style: none;
     display: flex;
-    justify-content: flex-end;
     flex-direction: row;
 }
 
-#menu li {
+li {
     border: 2px solid black;
     border-radius: 10px;
 }
-
-/*Icones menu*/
 a {
     text-decoration: none;
     color: black;
@@ -166,156 +123,14 @@ li:hover{
     box-shadow: 3px 5px 10px black;   
 }
 
-/*Roda pé*/
+/*Footer*/
 .pe {
     text-align: center;
     font-size: 15px;
     background-color: rgba(196, 230, 196, 0.5);
     border-radius: 10px;
-}
-
-/*Contato*/
-.minhasinfos {
-    text-align: center;
-}
-
-.pai {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 0.2fr) 1.0fr;
-    grid-column-gap: 4px;
-    grid-row-gap: 10px;
-    }
-
-.nome1 { 
-    grid-area: 1 / 1 / 2 / 2; 
-    text-align: right;
-}
-
-.espaco1 { 
-    grid-area: 1 / 2 / 2 / 3;
-    border-radius: 100px;
-}
-
-.nome2 { 
-    grid-area: 2 / 1 / 3 / 2; 
-    text-align: right;
-}
-
-.espaco2 { 
-    grid-area: 2 / 2 / 3 / 3; 
-}
-
-.nome3 { 
-    grid-area: 3 / 1 / 4 / 2; 
-    text-align: right;
-}
-
-.espaco3 { 
-    grid-area: 3 / 2 / 5 / 3; 
-}
-
-.priority {
-    text-align: center;
-    padding: 5px;
-    margin-top: 5px;
-    margin-bottom: 10px;
-}
-
-.enviar {
-    margin-top: 10px;
-    margin-bottom: 4px;
-}
-
-#button {
-    all: unset;
-    background-color: black;
-    color: white;
-    font-size: 15px;
-    padding: 5px;
-    border-radius: 10px;  
-    box-shadow: 2px 4px rgb(90, 90, 90);
-}
-
-#button:hover {
-    color: rgba(196, 230, 196, 0.5);
-    box-shadow: 3px 5px rgb(90, 90, 90);
-}
-
-/*Logos Ln, GIT*/
-#logos {
-    font-size: 25px;
-}
-
-.mail {
-    font-size: 15px;
-    text-shadow: 0px 0px 0px;
-}
-
-/*Profisional, simbolos*/
-#cv {
-    margin-top: 15px;
-    margin-left: 75px;
-    position: relative;
-}
-
-#sform {
-    position: absolute;
-    top: 22px;
-    left: -20px;
-}
-
-#sidi {
-    position: absolute;
-    top: 307px;
-    left: -23px;
-}
-
-#sti {
-    position: absolute;
-    top: 135px;
-    left: -23px;   
-}
-
-#sha {
-    position: absolute;
-    top: 223px;
-    left: -20px;   
-}
-
-#sjob {
-    position: absolute;
-    top: 423px;
-    left: -18px;     
-}
-
-#sjob1 {
-    position: absolute;
-    top: 528px;
-    left: -18px;     
-}
-
-#sjob2 {
-    position: absolute;
-    top: 634px;
-    left: -18px;     
-}
-
-#sjob3 {
-    position: absolute;
-    top: 738px;
-    left: -18px;     
-}
-
-#sjob4 {
-    position: absolute;
-    top: 844px;
-    left: -18px;     
-}
-
-
-/*Area de escrita do usuario*/
-input, textarea {
     border-radius: 10px;
+    padding-bottom: 15px;
+    padding-top: 10px;
 }
 
