@@ -1,4 +1,4 @@
 function enviar() {
     document.alert("Gracias. Responderé pronto.");
-    document.getElementById("button").submit();
+    document.getElementsByClassName("enviar").submit();
 }
