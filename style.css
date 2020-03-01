@@ -100,6 +100,7 @@ fieldset {
     justify-content: center;
     align-items: center;
     align-self: center;
+    flex-wrap: wrap;
 }
 
 .formField {
@@ -114,6 +115,7 @@ fieldset {
     font-size: 20px;
     text-decoration: underline;
     font-weight: bolder;
+    flex-wrap: wrap;
 }
 
 .enviar {
@@ -151,6 +153,7 @@ main.principal {
     align-items: center;
     padding-bottom: 20px;
     font-size: 20px;
+    flex-wrap: wrap;
 }
 
 /*Menu_Header*/
@@ -169,6 +172,7 @@ ul {
     list-style: none;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 li {
@@ -197,8 +201,9 @@ li:hover{
 }
 
 /*Logos Ln, GIT*/
-#logos {
+i {
     font-size: 25px;
+
 }
 
 .mail {
