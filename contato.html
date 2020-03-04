@@ -24,14 +24,14 @@
     <section>
         <section class="minhasinfos">
             <h2>CONTACTO</h2>
-            <h3><strong></strong><a class="mail" href="mailto:guilhermemferrini@gmail.com" target="_blank" rel="noopener noreferrer"> guilhermemferrini@gmail.com</a></strong></h3>
+            <h3><a class="mail" href="mailto:guilhermemferrini@gmail.com" target="_blank" rel="noopener noreferrer"> guilhermemferrini@gmail.com</a></strong></h3>
         
             <h3>+34 674 57 24 16</h3>
             <h3>Valencia, Spain</h3>
         </section>
 
         <section>
-            <form class="formulario">
+            <form class="formulario" onsubmit="return false">
                 <fieldset class="formField">
                     <legend class="formTitulo">¿Tiene alguna pregunta o quiere trabajar juntos?</legend>
                     
@@ -51,8 +51,8 @@
                     
                     <h5>--- Gracias ---</h5>
                     <!--<input type="button" class="enviar" id="button" value="ENVIAR" onclick="enviar()">-->
-                    <button id="enviar" class="enviar" type="submit" value="Submit" onclick="enviar()" >ENVIAR</button>
-                    
+                    <button id="enviar" class="enviar" type="button" value="Submit" onclick="enviar()">ENVIAR</button>
+                    <!--Qdo carrega  apagina, entra alert :)-->
                 </fieldset>
             </form>
         </section>
